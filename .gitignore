@@ -1,7 +1,8 @@
 # OSX
 #
 .DS_Store
-
+.package-lock.json
+package-lock.json
 # Xcode
 #
 build/
@@ -21,10 +22,11 @@ DerivedData
 *.ipa
 *.xcuserstate
 ios/.xcode.env.local
-
+node_modules
 # Android/IntelliJ
 #
 build/
+node_modules/
 .idea
 .gradle
 local.properties
